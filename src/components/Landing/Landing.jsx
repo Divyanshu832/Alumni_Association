@@ -198,7 +198,7 @@ const Landing = () => {
     <div>
       <div className="container-1 video-background">
         <div className="image1 video-background">
-          <img className="background-img w-full" id="background-video" src="src\assets\bg234.jpg" alt="" />
+          <img className="background-img w-full" id="background-video" src="../src/assets/bg234.jpg" alt="" />
           <div className="heading-container">
             <h1 className="heading1 font-poppins text-center" data-aos="fade-up">
               {/* WELCOME TO ALUMNI ASSOCIATION */}

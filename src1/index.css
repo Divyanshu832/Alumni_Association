@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Poppins&family=Space+Grotesk&family=Space+Mono&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  -webkit-user-select: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}

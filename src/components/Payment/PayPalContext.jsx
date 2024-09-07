@@ -2,7 +2,7 @@
 import React from 'react';
 import { PayPalScriptProvider } from '@paypal/react-paypal-js';
 
-const PayPalcontext = ({ children }) => {
+const PayPalContext = ({ children }) => {
   const initialOptions = {
     "client-id": "AToAHnJIPyj5c0O6DoGCE7hyhudN3ovXidGwe7FOi-VYywW5omAn_tN4rbfvxD8cQDmM1hmMCUL__GAN", // Replace with your actual PayPal Client ID
     currency: "USD",
@@ -16,4 +16,4 @@ const PayPalcontext = ({ children }) => {
   );
 };
 
-export default PayPalcontext;
+export default PayPalContext;

@@ -14,7 +14,7 @@ import Register from './components/Register/Register.jsx'
 import JobForm from './components/JobPortal/JobForm.jsx'
 import Blogs from "./components/Blog-Page/Blogs.jsx";
 import Write from './components/Blog-Page/pages/Write/Write.jsx'
-import Mpn from "./components/mpn.jsx";
+import Mpn from "./components/Mpn.jsx";
 import ScrollToTop from "./components/ScrollToTop.jsx";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <BrowserRouter>

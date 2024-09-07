@@ -1,0 +1,64 @@
+.evnt{
+    background-color:#3282B8 ;
+    height: auto;
+    padding-top: 8vh;
+    padding-bottom: 10vh;
+}
+.e1{
+    border: 2px transparent black;
+   height: 14vh;
+   background-color:#49aef2 ;
+   display: flex;
+   align-items: center;
+   font-size: 25px;
+   font-weight: 600;
+   padding-left: 13vw;
+   box-shadow: 2px 2px 2px #49aef2 ;
+}
+.e2{
+    font-size: 15px;
+    padding-top: 0.8vh;
+    padding-left: 0.5vw;
+    font-weight: 300;
+}
+.eventp2{
+    height: auto;
+    margin: 1.5rem;
+    padding-top: 2vh;
+    padding-left: 11.2vw;
+    font-size: 25px;
+   font-weight: 600;
+}
+.evntbx{
+    margin-right: 2rem;
+    margin-top: 3rem;
+    height: 50vh;
+    width: 23vw;
+    border: 2px solid black;
+    border-radius: 20px ;
+}
+.evntbx img{
+    padding-top: 2.5vh;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+    width: 20vw;
+   
+}
+.evntbx p{
+    margin-top: 7vh;
+    font-size: large;
+   margin-left: 1.5vw;
+   margin-right: 1.5vw;
+}
+.e2p2{
+    margin-top: 5rem;
+}
+.ecrd {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .ecrd:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+  }
+  

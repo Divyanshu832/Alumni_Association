@@ -1,0 +1,122 @@
+/* .t1{
+   background-image: url("https://img.freepik.com/premium-photo/modern-school-architecture-with-green-grass_153608-106807.jpg?size=626&ext=jpg&ga=GA1.1.444555.1724740250&semt=ais_hybrid");
+   background-repeat: no-repeat; 
+    background-size: 100% 80vh;
+    
+    width: 100vw;
+    height: 70vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    text-align: center;
+}
+.t2{
+    background-color: rgba(0, 0, 0, 0.628);
+
+    color: aliceblue;
+    width: 35%;
+    height: 20%;
+   font-size: 40px;
+   font-weight: 600;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+} */
+
+
+
+/* Default styles for larger screens */
+.t1 {
+    background-image: url("https://img.freepik.com/premium-photo/modern-school-architecture-with-green-grass_153608-106807.jpg?size=626&ext=jpg&ga=GA1.1.444555.1724740250&semt=ais_hybrid");
+    background-repeat: no-repeat; 
+    background-size: 100% 80vh;
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.t2 {
+    background-color: rgba(0, 0, 0, 0.628);
+    color: #EEE2DC;
+    width: 35%;
+    height: 20%;
+    font-size: 40px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Media query for tablets and phones */
+@media (max-width: 768px) {
+    .t1 {
+        background-size: cover; /* Adjust background size to fit smaller screens */
+        height: 50vh; /* Reduce height for smaller screens */
+    }
+
+    .t2 {
+        width: 50%; /* Adjust width for smaller screens */
+        height: 30%; /* Adjust height for smaller screens */
+        font-size: 30px; /* Reduce font size for better fit */
+    }
+}
+
+/* Media query for very small screens (e.g., phones in portrait mode) */
+@media (max-width: 480px) {
+    .t1 {
+        background-size: cover; /* Ensure background covers the container */
+        height: 40vh; /* Further reduce height for very small screens */
+        margin: 0;padding: 0;
+    }
+
+    .t2 {
+        width: 70%; /* Further adjust width for small screens */
+        height: 40%; /* Further adjust height for small screens */
+        font-size: 24px; /* Reduce font size further for very small screens */
+    }
+}
+
+
+.te2{
+    width: 100%;
+    height:auto;
+    background-color: #EEE2DC;
+    padding: 2%;
+    padding-top: 3%;
+}
+
+.testi-card{
+    height: auto;
+    width: 100%;
+    background-color: #EEE2DC;
+}
+.F1 {
+    display: flex;
+    justify-content: flex-start; /* Default alignment for larger screens */
+}
+
+/* Media query for tablets (max-width: 768px) */
+@media (max-width: 768px) {
+    .F1 {
+        display: flex;
+        flex-wrap: wrap; /* Enable wrapping of flex items */
+        justify-content: center; /* Center align items horizontally */
+        align-items: center; /* Center align items vertically */
+    }
+}
+
+/* Media query for mobile devices (max-width: 480px) */
+@media (max-width: 480px) {
+    .F1 {
+        display: flex;
+        flex-wrap: wrap; /* Enable wrapping of flex items */
+        justify-content: center; /* Center align items horizontally */
+        align-items: center; /* Center align items vertically */
+    }
+}
+
+
+

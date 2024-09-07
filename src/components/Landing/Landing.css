@@ -1,0 +1,578 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  
+  /* Typography */
+  .brygada-1918 {
+    font-family: "Brygada 1918", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: #162a5d;
+  }
+  
+  /* Container */
+  .container-1 {
+    /* width: 100%; */
+    height: 80%;
+  }
+  
+  .image1 {
+    height: 80vh;
+    width: 100%;
+  }
+  
+  #background-video {
+    position: absolute;
+    z-index: -1;
+  }
+  
+  .heading1 {
+    z-index: 1;
+    font-size: 55px;
+    font-weight: 900;
+    padding-top: 15vh;
+    color: rgb(18, 7, 171);
+  }
+  
+  /* Container-3 CSS */
+  .container-3 {
+    /* height: 30vh; */
+    background-color: #ede8f5;
+  }
+  
+  .c3p1 {
+    height: 60vh;
+    width: 25vw;
+    padding-left: 12vw;
+    padding-top: 8vh;
+  }
+  
+  .c3p1 .c3p1h1 {
+    font-size: large;
+    font-weight: 700;
+    margin-bottom: 2vh;
+  }
+  
+  .c3p1 p {
+    font-size: 15px;
+    font-weight: 300;
+  }
+  
+  .c3p2, .c3p2n {
+    height: 60vh;
+    width: 18vw;
+    padding-top: 6vh;
+    margin-left: 1vw;
+  }
+  
+  .c3p2 h1, .c3p2n h1 {
+    font-size: 30px;
+  }
+  
+  .bgi {
+    font-size: 40px;
+    font-weight: 900;
+  }
+ 
+  
+  
+  /* Engage Section */
+  .engage {
+    padding-left: 10vw;
+    padding-right: 10vw;
+    height: auto;
+    background-color: #29499a;
+  }
+  
+  .engage h1 {
+    padding-top: 4%;
+    font-size: 40px;
+    font-weight: 700;
+    color: whitesmoke;
+  }
+  
+  .engage > p {
+    font-size: 25px;
+    font-weight: 400;
+    color: whitesmoke;
+  }
+  
+  /* Newsroom and Events */
+  .newsroom-events {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .newsroom, .events {
+    background-color: #474B73;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #FAE570;
+    border-bottom: 2px solid #c0a563;
+    display: inline-block;
+    padding-bottom: 5px;
+  }
+  
+  .news-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .news-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .news-list li a {
+    text-decoration: none;
+    color: #ffffff;
+    flex: 1;
+    margin-right: 10px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .badge.new {
+    background-color: #d9534f;
+    color: rgb(159, 9, 9);
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-size: 10px;
+    margin-left: 5px;
+  }
+  
+  .date {
+    color:#ffffff7b;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  .events .event-item {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .event-date {
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .event-day {
+    font-size: 24px;
+    display: block;
+  }
+  
+  .event-month {
+    font-size: 14px;
+  }
+  
+  .event-details {
+    flex: 1;
+  }
+  
+  .event-status {
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  .event-title {
+    margin: 5px 0;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  .event-location {
+    font-size: 12px;
+    color:#ffffff77;
+  }
+  
+  .NE {
+    padding-left: 10%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    background:#FFFFFF;
+  }
+  
+  /* Alumni Section */
+  .alumni-container {
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .alumni-image {
+    flex: 2;
+  }
+  
+  .alumni-image img {
+    margin-left: -11vw;
+    width: 110vw;
+    height: 80vh;
+    border-radius: 8px;
+  }
+  
+  .alumni-content {
+    flex: 1.5;
+    margin-left: -6vw;
+  }
+  
+  .alumni-content h1 {
+    margin-top: 30px;
+    font-size: 2rem;
+    color: #d32f2f;
+    margin-bottom: 20px;
+    font-weight: 700;
+  }
+  
+  .alumni-content h3 {
+    font-size: 1.5rem;
+  }
+  
+  .testi {
+    height: 70vh;
+  }
+  
+  .testi > h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 5%;
+  }
+  
+  .btx {
+    width: 30vw;
+    height: 50vh;
+    background: #EEE2DC;
+    margin-left: 2%;
+    margin-top: 8vh;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  .btx img {
+    margin-left: 38%;
+    margin-top: 8%;
+    width: 110px;
+    height: 110px;
+    border-radius: 100%;
+  }
+  
+  .btx > h1 {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+    margin-bottom: 3vh;
+  }
+  
+  .btx > p {
+    margin-top: 2vh;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+  }
+  
+  /* Responsive Styles */
+  
+  /* Medium screens (tablets, 768px and up) */
+  @media only screen and (max-width: 992px) {
+    .heading1 {
+      font-size: 45px;
+    }
+  
+    .c3p1, .c3p2, .c3p2n {
+      width: 100%;
+      padding-left: 5vw;
+      height: auto;
+    }
+  
+    .alumni-image img {
+      width: 100vw;
+      height: auto;
+    }
+  
+    .newsroom-events {
+      flex-direction: column;
+      padding: 10px;
+    }
+  
+    .engage {
+      padding-left: 5vw;
+      padding-right: 5vw;
+    }
+  
+    .engage h1, .engage > p {
+      text-align: center;
+      padding: 2%;
+    }
+  
+    .alumni-content h1 {
+      font-size: 1.8rem;
+    }
+  }
+  
+  /* Small screens (phones, 576px and down) */
+  @media only screen and (max-width: 576px) {
+    .heading1 {
+      font-size: 35px;
+      padding-top: 10vh;
+    }
+  
+    .c3p1, .c3p2, .c3p2n {
+      padding-left: 2vw;
+      padding-top: 4vh;
+    }
+  
+    .alumni-image img {
+      margin-left: 0;
+    }
+  
+    .btx {
+      width: 90%;
+      margin: 5% auto;
+      height: auto;
+    }
+  
+    .btx img {
+      margin-left: calc(50% - 55px);
+    }
+  
+    .btx > h1, .btx > p {
+      font-size: 12px;
+    }
+  
+    /* Hide Alumni Container on Mobile */
+    .alumni-container {
+      display: none;
+    }
+  
+    /* Remove Margin/Padding between Container 1 and 3 */
+    .container-1, .container-3 {
+      margin: 0;
+      padding: 0;
+    }
+    
+      .image1 {
+        height: auto;
+        width: 100%;
+      }
+  
+    /* Engagement and Our Services Sections in Column Layout */
+    .engage, .our-services {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .engage > div, .our-services > div {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .engage h1, .engage > p {
+      text-align: center;
+      padding: 5%;
+    }
+  }
+  @media only screen and (max-width: 992px) {
+    .container-3 {
+      gap: 15px; /* Reduce gap on medium screens */
+    }
+  
+    .c3p1 {
+      padding-left: 5vw; /* Adjust padding for medium screens */
+    }
+  
+    .c3p2,
+    .c3p2n {
+      flex: 1 1 45%; /* Adjusts to two columns layout on tablets */
+    }
+  }
+  
+  /* Small screens (phones, 576px and up) */
+  @media only screen and (max-width: 576px) {
+    .container-3 {
+      flex-direction: column; /* Stack items in a column on small screens */
+      padding: 0px; /* Reduce padding */
+      /* height: 10vh; */
+    }
+  
+    .c3p1 {
+      padding-left: 0; /* Remove left padding */
+      text-align: center; /* Center align for mobile */
+    }
+  
+    .c3p2,
+    .c3p2n {
+      flex:  100%; /* Full width for each item on small screens */
+      margin-left: 0; /* Remove margin between items */
+      /* padding-top: 2vh; Adjust top padding */
+    }
+  
+    .c3p2 img,
+    .c3p2n img {
+      max-width: 60px; /* Further reduce image size on small screens */
+    }
+  
+    .c3p2 .bgi,
+    .c3p2n .bgi {
+      font-size: 30px; /* Reduce text size */
+    }
+  
+    .c3p2 h1,
+    .c3p2n h1 {
+      font-size: 18px; /* Reduce heading size */
+    }
+  }
+  /* Engage Section */
+.engage {
+    padding-left: 10vw;
+    padding-right: 10vw;
+    height: auto;
+    background-color: #EEE2DC;
+  }
+  
+  .engage h1 {
+    padding-top: 4%;
+    font-size: 40px;
+    font-weight: 700;
+    color: #2C3165;
+  }
+  
+  .engage > p {
+    font-size: 25px;
+    font-weight: 400;
+    color: #2C3165;
+  }
+  
+  /* Responsive Styles */
+  
+  /* Medium screens (tablets, 768px and up) */
+  @media only screen and (max-width: 992px) {
+    .engage {
+      padding-left: 5vw;
+      padding-right: 5vw;
+    }
+  
+    .engage h1, .engage > p {
+      text-align: center;
+      padding: 2%;
+    }
+  }
+  
+  /* Small screens (phones, 576px and down) */
+  @media only screen and (max-width: 576px) {
+    .engage>div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      /* padding-left: 1vw; */
+      /* padding-right: 1vw; */
+      width: 100%;
+    }
+  
+    .engage h1 {
+      font-size: 30px;
+      padding-top: 3%;
+    }
+  
+    .engage > p {
+      font-size: 18px;
+      padding-top: 2%;
+      text-align: center;
+    }
+  }
+  /* Base styles */
+.testi {
+    height: 70vh;
+  }
+  
+  .testi > h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 5%;
+  }
+  
+  .btx {
+    width: 30vw;
+    height: 50vh;
+    background: #EEE2DC;
+    margin-left: 2%;
+    margin-top: 8vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  .btx img {
+    margin-left: 38%;
+    margin-top: 8%;
+    width: 110px;
+    height: 110px;
+    border-radius: 100%;
+  }
+  
+  .btx > h1 {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+    margin-bottom: 3vh;
+  }
+  
+  .btx > p {
+    margin-top: 2vh;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .testi {
+      height: auto; /* Adjust height if needed */
+    }
+  
+    .btx {
+      width: 90vw; /* Adjust width to fit smaller screens */
+      height: auto; /* Allow height to adjust based on content */
+      margin-left: 0;
+      margin-top: 1vh; /* Reduce top margin */
+    }
+  
+    .btx img {
+      margin-left: auto;
+      margin-right: auto;
+      display: block; /* Center image horizontally */
+      width: 80px; /* Adjust size for smaller screens */
+      height: 80px;
+    }
+  
+     .testss {
+      display: flex;
+      flex-direction: column; /* Arrange cards in a column */
+      align-items: center;
+      margin-left: 20px; /* Center-align cards */
+    }
+  }
+  

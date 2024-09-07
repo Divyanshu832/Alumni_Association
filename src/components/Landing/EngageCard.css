@@ -1,0 +1,44 @@
+.engage-card {
+    background-image: url('path/to/your/image.jpg'); /* Add your background image URL here */
+    background-size: cover; /* Ensures the image covers the entire card */
+    background-position: center; /* Centers the image */
+    border-radius: 15px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 30%;
+    height: 20vh;
+    margin: 10px;
+    margin-left: 2%;
+    border: 3px solid #B71061;
+    color: #6200ff; /* Text color to contrast with the background */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers content vertically */
+    align-items: center; /* Centers content horizontally */
+    text-align: center; /* Centers text */
+  }
+  
+  .engage-card-title {
+    font-size: 25px;
+    font-weight: 800;
+    margin: 0 0 10px 0;
+  }
+  
+  .engage-card-description {
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  @media only screen and (max-width: 576px) {
+    .engage-card {
+      width: 80vw;
+      height: auto; /* Adjust height for smaller screens */
+    }
+    .engage-card-title {
+      font-size: 30px;
+    }
+    .engage-card-description {
+      font-size: 20px;
+    }
+  }
+  

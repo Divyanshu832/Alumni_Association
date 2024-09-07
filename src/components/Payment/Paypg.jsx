@@ -1,6 +1,6 @@
 // src/App.jsx
 import React from 'react';
-import PayPalContext from './Paypalcontext';
+import PayPalContext from './PayPalcontext';
 import Checkout from './Checkout';
 
 const Paypg = () => {

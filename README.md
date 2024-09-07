@@ -1,1 +1,1 @@
-# Alumni_Association
+The Alumni Association platform for a university includes a web and mobile app with features like registration, donations, networking, job portals, event management, and success story tracking. Utilizing React, React Native, Node.js, PostgreSQL, and cloud services ensures scalability, security, and a seamless user experience.

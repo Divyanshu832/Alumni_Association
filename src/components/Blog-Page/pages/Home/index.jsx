@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import EmptyList from '../../Elements/common/EmptyList';
-import BlogList from '../../Elements/Blog_home/BlogList/index';
-import Header from '../../Elements/Blog_home/Header/index';
-import SearchBar from '../../Elements/Blog_home/SearchBar/index';
+import BlogList from '../../Elements/Blog_home/BlogList/BlogList';
+import Header from '../../Elements/Blog_home/Header/Header';
+import SearchBar from '../../Elements/Blog_home/SearchBar/SearchBar';
 import { blogList } from '../../config/data';
 
 const Blog_Home = () => {

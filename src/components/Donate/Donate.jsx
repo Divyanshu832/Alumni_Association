@@ -1,6 +1,6 @@
 import {Link, NavLink} from 'react-router-dom'
 import './Donate.css'
-import DonateCard from './Donatecard'
+import DonateCard from './DonateCard'
 export default function Donate() {
   return (
     <div>
